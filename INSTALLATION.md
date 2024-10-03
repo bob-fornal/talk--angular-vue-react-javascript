@@ -60,6 +60,16 @@ npx create-gatsby
 | `npx create-gatsby` (no typescript) | 371 MB | 1.2 MB | |
 | `npx create-gatsby` (typescript) | 406 MB | 1.2 MB | |
 
+### React (Create-React-App)
+
+```script
+npx create-react-app [name]
+```
+
+| Script | Installation | Build Size (prod) | Build Size (application, prod) |
+|--------|--------------|-------------------|--------------------------------|
+| `npx create-react-app` | 250 MB | 563 KB | |
+
 # Site-Level Notes
 
 | Framework | Version | TypeScript | Unit Tests | E2E Tests | ESLint | Prettier |

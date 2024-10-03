@@ -72,6 +72,8 @@ npx create-react-app [name]
 
 # Site-Level Notes
 
+## Options
+
 | Framework | Version | TypeScript | Unit Tests | E2E Tests | ESLint | Prettier |
 |-----------|---------|------------|------------|-----------|--------|----------|
 | Angular | 18.2.5 | DEFAULT | DEFAULT | (can install) | - | - |
@@ -80,3 +82,22 @@ npx create-react-app [name]
 | React (Next.js) | 18.3.1 (14.2.14) | optional | - | - | optional | - |
 | React (Remix) | 18.3.1 (2.12.1) | DEFAULT | - | - | DEFAULT | - |
 | Vue | 3.5.10 | optional | optional | optional | optional | optional |
+
+## Lighthouse
+
+(original code)
+
+| Framework | Version | Performance | Accessibility | Best Practices | SEO | Performance Metrics |
+|-----------|---------|-------------|---------------|----------------|-----|---------------------|
+| Angular | 18.2.5 | 91 | 95 | 81 | 90 | 1.4 s FCP, 1.4 s LCP, 0 ms TBT, 0 CLS, 1.4 s SI |
+| React (Create-React-App) | 18.3.1 (5.0.1) | 100 | 100 | 81 | 100 | 0.2 s FCP, 0.4 s LCP, 0 ms TBT, 0 CLS, 0.2 s SI |
+| React (Gatsby) | 18.3.1 (3.13.1) | 100 | 95 | 81 | 91 | 0.2 s FCP, 0.5 s LCP, 0 ms TBT, 0 CLS, 0.2 s SI |
+| React (Next.js) | 18.3.1 (14.2.14) | 100 | 100 | 81 | 100 | 0.3 s FCP, o.7 s LCP, 0 ms TBT, 0 CLS, 0.3 s SI |
+| React (Remix) | 18.3.1 (2.12.1) | 100 | 100 | 81 | 100 | 0.4 s FCP, 0.5 s LCP, 0 ms TBT, 0 CLS, 0.4 s SI |
+| Vue | 3.5.10 | 100 | 88 | 81 | 91 | 0.4 s FCP, 0.4 s LCP, 0 ms TBT, 0 CLS, 0.4 s SI |
+
+1. FCP: First Contentful Paint
+2. LCP: Largest Contentful Paint
+3. TBT: Total Blocking Time
+4. CLS: Cumulative Layout Shift
+5. SI: Speed Index

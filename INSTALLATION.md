@@ -75,6 +75,7 @@ npx create-react-app [name]
 | Framework | Version | TypeScript | Unit Tests | E2E Tests | ESLint | Prettier |
 |-----------|---------|------------|------------|-----------|--------|----------|
 | Angular | 18.2.5 | DEFAULT | DEFAULT | (can install) | - | - |
+| React (Create-React-App) | 18.3.1 (5.0.1) | - | DEFAULT | - | - | - |
 | React (Gatsby) | 18.3.1 (3.13.1) | optional | - | - | - | - |
 | React (Next.js) | 18.3.1 (14.2.14) | optional | - | - | optional | - |
 | React (Remix) | 18.3.1 (2.12.1) | DEFAULT | - | - | DEFAULT | - |
